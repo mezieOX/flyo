@@ -1,11 +1,26 @@
-import Header from "../components/header/Header"
+import React, { Fragment } from 'react';
+import Layout from '../components/layout/Layout';
+import Trusted from '../components/trusted/Trusted';
+import Info from '../components/info/Info';
+import BusinessTask from '../components/business-task/BusinessTask';
+import LargeCard from '../components/large-card/LargeCard';
+
+
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
-<Header />
-    </div>
-  )
+    <Fragment>
+    <Layout title="Home">
+      <Info />
+       <Trusted />
+       <BusinessTask />
+      <LargeCard />
+      {/* <GetStarted /> */}
+      {/* <Motive />
+      <Cards />  */}
+    </Layout>
+  </Fragment>
+  );
 }
 
-export default Home
+export default Home;
