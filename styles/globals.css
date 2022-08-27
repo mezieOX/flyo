@@ -20,11 +20,9 @@ a {
 }
 
 .para {
-  @apply px-4 py-16 sm:px-8 lg:px-16;
+  @apply px-2 py-4;
 }
 
-.para-card {
-  @apply xl:px-3.5 px-4 py-4 sm:px-8 lg:px-16;
-}
+
 
 
