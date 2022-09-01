@@ -2,7 +2,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import MessageIcon from '@material-ui/icons/Message';
 import PhoneIcon from '@material-ui/icons/Phone';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import WhatsappIcon from '@material-ui/icons/Whatsapp';
+import TwitterIconIcon from '@material-ui/icons/TwitterIcon';
 import FacebookIcon from '@material-ui/icons/Facebook';  
 
 function Footer() {
@@ -39,7 +39,7 @@ function Footer() {
       <div className='flex items-center justify-center w-full lg:w-40 space-x-4'>
         <div><FacebookIcon className="p-2 rounded-full border !text-white !text-4xl" /></div>
         <div><InstagramIcon className="p-2 rounded-full border !text-white !text-4xl" /></div>
-        <div><WhatsappIcon className="p-2 rounded-full border !text-white !text-4xl" /></div>
+        <div><TwitterIcon className="p-2 rounded-full border !text-white !text-4xl" /></div>
       </div>
          </div>
   )
