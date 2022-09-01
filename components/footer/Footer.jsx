@@ -2,7 +2,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import MessageIcon from '@material-ui/icons/Message';
 import PhoneIcon from '@material-ui/icons/Phone';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import TwitterIconIcon from '@material-ui/icons/TwitterIcon';
+import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';  
 
 function Footer() {
